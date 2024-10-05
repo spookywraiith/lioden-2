@@ -1,0 +1,466 @@
+/*
+  Free to use CSS template by Katie (#106445).
+  This code may be altered, edited, or re-uploaded. 
+  This template may be used to create paid codes (pre-mades and commissions).
+  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://img.nickpic.host/hIL1Ej.jpg') center center fixed;
+	background-size: 100%;
+	font-family: 'Rosarivo', serif;;
+	color: #798699;
+	cursor: default;
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(41, 48, 56, 0.6) !important;
+	color: #06090C !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgba(41, 48, 56, 0.6);
+	border: none;
+	border-top: none;
+	filter: saturate(75%);
+	color: #798699;
+	border-radius: 5px;
+	font-family: 'Cinzel', serif;;
+}
+
+.navbar {
+	background: rgba(41, 48, 56, 0.6);
+	border-bottom: none;
+	font-family: 'Cinzel', serif;;
+	color: #798699;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #798699 !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(9, 6, 12, 0.6) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(9, 6, 12, 0.6);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(41, 48, 56, 0.6);
+	filter: grayscale(0%);
+}
+
+.breadcrumb .active {
+	color: #06090C;
+	filter: grayscale(0%);
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgba(41, 48, 56, 0.6);
+	border: none;
+	color: #06090C;
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgba(41, 48, 56, 0.6);
+	color: #06090C;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(9, 6, 12, 0.6);
+	border: none;
+	filter: grayscale(100%)
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgba(41, 48, 56, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	filter: saturate(75%);
+	color: #06090C !important;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(41, 48, 56, 0.6);
+	color: #06090C !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #06090C !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(41, 48, 56, 0.6);
+	color: #06090C !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: rgba(41, 48, 56, 0.6) !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgba(41, 48, 56, 0.6) !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: rgba(41, 48, 56, 0.6) !important;
+	color: #06090C !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #475A70 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: rgba(41, 48, 56, 0.6) !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #475A70;
+	font-size: 62px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #475A70;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #798699 !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgba(41, 48, 56, 0.6);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: rgba(9, 6, 12, 0.6) !important;
+	color: #475A70 !important;
+	border-radius: 5px;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgba(9, 6, 12, 0.6)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: rgba(9, 6, 12, 0.6) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: #798699 !important;
+	text-shadow: none !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(9, 6, 12, 0.6) !important;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(9, 6, 12, 0.6)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(41, 48, 56, 0.6) !important;
+	color: #8C939A  !important;
+	filter: grayscale(100%);
+}
+
+.item {
+	background: rgba(41, 48, 56, 0.6) !important;
+	border: none !important;
+	filter: grayscale(100%);
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(9, 6, 12, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(9, 6, 12, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(41, 48, 56, 0.6);
+	border: none !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #a2b2c9 !important;
+}
+
+a:hover {
+	color: #475A70 !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.Box1 {
+	float: left;
+	background: rgba(9, 6, 12, 0.6);
+	color: #798699 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: auto;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */7
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box1:hover {
+	overflow-y: auto;
+}
+
+.Box2 {
+	float: left;
+	background: rgba(9, 6, 12, 0.6);
+	color: #798699 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box2:hover {
+	overflow-y: auto;
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #06090C;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #475A70;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.6;
+}
+
+table#player img {
+	opacity: 0.6;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	filter: grayscale(100%);
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+}
+
+table#player img {
+	border-radius: 50% !important;
+	filter: grayscale(100%);
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://img.nickpic.host/hmIgmz.gif');
+}
+
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('https://img.nickpic.host/hmoc4W.png')!important;
+	filter: grayscale(100%);
+}
+
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="195147"]>div.cave-grid>img {
+	content: url('https://img.nickpic.host/hmpmbn.png')!important;
+	filter: grayscale(100%);
+}
+
+
+/* UNSORTED */
+
+a[href$="unsorted.php?id=251572"]>div.cave-grid>img {
+	content: url('https://img.nickpic.host/hmojYG.png')!important;
+	filter: grayscale(100%);
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=251572"]>div.cave-grid>img {
+	content: url('https://img.nickpic.host/hmo5Gz.png')!important;
+	filter: grayscale(100%);
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	filter: grayscale(100%);
+	background: url('https://img.nickpic.host/hmoFxY.png');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
