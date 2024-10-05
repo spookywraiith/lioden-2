@@ -270,7 +270,7 @@ textarea {
 
 .item-header {
 	background: rgba(41, 48, 56, 0.6) !important;
-	color: #8C939A  !important;
+	color: #9a8c8c  !important;
 	filter: grayscale(100%);
 }
 
@@ -305,7 +305,7 @@ textarea {
 
 a:link,
 a:visited {
-	color: #a2b2c9 !important;
+	color: #c9a2a2 !important;
 }
 
 a:hover {
