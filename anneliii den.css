@@ -38,7 +38,7 @@ body {
 	border: none;
 	border-top: none;
 	filter: saturate(75%);
-	color: #798699;
+	color: #997979;
 	border-radius: 5px;
 	font-family: 'Cinzel', serif;;
 }
@@ -47,12 +47,12 @@ body {
 	background: rgba(41, 48, 56, 0.6);
 	border-bottom: none;
 	font-family: 'Cinzel', serif;;
-	color: #798699;
+	color: #997979;
 	border-radius: 5px;
 }
 
 .navbar li a {
-	color: #798699 !important;
+	color: #997979 !important;
 }
 
 /* NAVBAR HOVER COLOR */
@@ -199,7 +199,7 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #798699 !important;
+	color: #997979 !important;
 	font-size: 14px !important
 }
 
@@ -242,7 +242,7 @@ textarea {
 	border-color: black;
 	border-radius: 5px;
 	box-shadow: none !important;
-	color: #798699 !important;
+	color: #997979 !important;
 	text-shadow: none !important;
 }
 
@@ -326,7 +326,7 @@ a:hover {
 .Box1 {
 	float: left;
 	background: rgba(9, 6, 12, 0.6);
-	color: #798699 ;
+	color: #997979 ;
 	padding: 15px;
 	border: none;
 	border-radius: 5px;
@@ -346,7 +346,7 @@ a:hover {
 .Box2 {
 	float: left;
 	background: rgba(9, 6, 12, 0.6);
-	color: #798699 ;
+	color: #997979 ;
 	padding: 15px;
 	border: none;
 	border-radius: 5px;
