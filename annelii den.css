@@ -25,7 +25,7 @@ body {
 
 .feature {
 	background: rgba(41, 48, 56, 0.6) !important;
-	color: #06090C !important;
+	color: #0c0606 !important;
 	border: none !important;
 	border-radius: 5px !important;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .breadcrumb .active {
-	color: #06090C;
+	color: #0c0606;
 	filter: grayscale(0%);
 }
 
@@ -96,13 +96,13 @@ body {
 .alert {
 	background: rgba(41, 48, 56, 0.6);
 	border: none;
-	color: #06090C;
+	color: #0c0606;
 }
 
 .alert-warning,
 .alert-danger {
 	background: rgba(41, 48, 56, 0.6);
-	color: #06090C;
+	color: #0c0606;
 }
 
 
@@ -123,24 +123,24 @@ div.left {
 	box-shadow: none !important;
 	border: none !important;
 	filter: saturate(75%);
-	color: #06090C !important;
+	color: #0c0606 !important;
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(41, 48, 56, 0.6);
-	color: #06090C !important;
+	color: #0c0606 !important;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #06090C !important;
+	color: #0c0606 !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: rgba(41, 48, 56, 0.6);
-	color: #06090C !important;
+	color: #0c0606 !important;
 }
 
 
@@ -159,7 +159,7 @@ div.left {
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
 	background: rgba(41, 48, 56, 0.6) !important;
-	color: #06090C !important;
+	color: #0c0606 !important;
 	border: none !important;
 }
 
@@ -375,7 +375,7 @@ a:hover {
 /* SCROLL BAR BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #06090C;
+	background: #0c0606;
 }
 
 
