@@ -13,7 +13,7 @@
 /* BACKGROUND */
 
 body {
-	background: url('https://img.nickpic.host/hIL1Ej.jpg') center center fixed;
+	background: url('https://i.imgur.com/e8EigHa.jpeg') center center fixed;
 	background-size: 100%;
 	font-family: 'Rosarivo', serif;;
 	color: #798699;
@@ -418,14 +418,14 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://img.nickpic.host/hmIgmz.gif');
+	content: url('https://i.imgur.com/RZ14ncX.gif');
 }
 
 
 /* PREGNANT LIONESSES */
 
 div.cave-grid>img {
-	content: url('https://img.nickpic.host/hmoc4W.png')!important;
+	content: url('https://i.imgur.com/4LA6yfk.jpeg')!important;
 	filter: grayscale(100%);
 }
 
@@ -433,7 +433,7 @@ div.cave-grid>img {
 /* CAVES (Copy paste to add more) */
 
 a[href$="195147"]>div.cave-grid>img {
-	content: url('https://img.nickpic.host/hmpmbn.png')!important;
+	content: url('https://i.imgur.com/otmc03S.jpeg')!important;
 	filter: grayscale(100%);
 }
 
@@ -441,7 +441,7 @@ a[href$="195147"]>div.cave-grid>img {
 /* UNSORTED */
 
 a[href$="unsorted.php?id=251572"]>div.cave-grid>img {
-	content: url('https://img.nickpic.host/hmojYG.png')!important;
+	content: url('https://i.imgur.com/Ze2RnzP.jpeg')!important;
 	filter: grayscale(100%);
 }
 
@@ -449,7 +449,7 @@ a[href$="unsorted.php?id=251572"]>div.cave-grid>img {
 /* PRIDE OVERVIEW */
 
 a[href$="lionoverview.php?id=251572"]>div.cave-grid>img {
-	content: url('https://img.nickpic.host/hmo5Gz.png')!important;
+	content: url('https://i.imgur.com/EBCRGud.jpeg')!important;
 	filter: grayscale(100%);
 }
 
@@ -458,7 +458,7 @@ a[href$="lionoverview.php?id=251572"]>div.cave-grid>img {
 
 .mound-grid img {
 	filter: grayscale(100%);
-	background: url('https://img.nickpic.host/hmoFxY.png');
+	background: url('https://i.imgur.com/OCiMEgq.jpeg');
 	width: 0;
 	height: 0;
 	padding-top: 80px;
